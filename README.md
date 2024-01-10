@@ -25,3 +25,18 @@ It is a special suspension system which keeps the robot stable while traversing 
 ![Rover Seeds Sower](images/rover_seeds.png)
 ![Rover Side View](images/rover_side_view.png)
 ![Rover Top View](images/rover_top.png)
+
+# Teleoperation via Arduino and Reciver:
+Requirements: Arduino, Transmitter and Reciever
+![transmitter](images/transmitter.png)
+
+The arduino code contains a class of motors which are defined to easily run motors, you just need to change the PWM and DIR pins in the objects of the motors. Once the transmitter and reciever are connected and the code is uploaded, the bot is controlled uisng the reciever. 
+
+# Teleoperation via ROS and SSH:
+ROS is installed and implemented via Raspberry pi 4, and the GPIO pins are connected to the motor drivers. The laptop and the raspi are connected under the same wifi and the SSH is done by the command:
+```
+ssh Username@ip_address
+```
+
+The ROS package "agribot" has two control node, the node "sender" is evoked in the laptop and "reciever" is evoked in the raspi terminal. Now we can teleop using the sender node by following the message available on the screen. 
+
