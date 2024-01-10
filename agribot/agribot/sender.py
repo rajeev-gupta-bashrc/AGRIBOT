@@ -21,7 +21,7 @@ class Sender(Node):
         self.status = 0
         self.vel = 0.0
         self.msg = """
-                    Control Your TurtleBot3!
+                    Control Your Rover!
                     ---------------------------
                     Moving around:
                             w
