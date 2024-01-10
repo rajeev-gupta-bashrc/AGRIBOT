@@ -21,7 +21,7 @@ We are aiming to implement Agribot integrated with a 6 DOF robotic arm, in moder
 # Mechanical features: Rocker Bogie
 It is a special suspension system which keeps the robot stable while traversing and ensures that all wheels keep contact with the ground. Each side has a rocker which is made with four pipes attached with 3-D printed connectors. Both rockers are connected through a differential which moves both rockers in a way such that the chassis remains stable. The special arrangement of the rocker wheels which have the middle and rear wheels freely always moving on a pivot lead to maximum wheel. 
 
-![Rover Ground](image/rover_ground.png)
-![Rover Seeds Sower](image/rover_seeds.png)
-![Rover Side View](image/rover_side_view.png)
-![Rover Top View](image/rover_top.png)
+![Rover Ground](images/rover_ground.png)
+![Rover Seeds Sower](images/rover_seeds.png)
+![Rover Side View](images/rover_side_view.png)
+![Rover Top View](images/rover_top.png)
