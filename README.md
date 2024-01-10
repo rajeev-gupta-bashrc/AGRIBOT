@@ -19,7 +19,7 @@ Using Agribot can multiply the working hours by 3 folds, making the job of farme
 We are aiming to implement Agribot integrated with a 6 DOF robotic arm, in modern greenhouse farms; with the help of sensors, monitoring of the health and vitals of each batch will be done, and our bot can collect the image data for disease detection, hence increasing data collection ability for particular plants. All this will be maintained and computed on the cloud, according to which bot can do selective plant treatment, disease prediction and perform tasks like cutting, grafting, or pruning. Using a robot in greenhouse farming can provide several advantages including a Reduction in Chemical Usage by targeted approaches to crops, Reduced Risk of Contamination with humans, labor efficiency, etc.
 
 # Mechanical features: Rocker Bogie
-It is a special suspension system which keeps the robot stable while traversing and ensures that all wheels keep contact with the ground. Each side has a rocker which is made with four pipes attached with 3-D printed connectors. Both rockers are connected through a differential which moves both rockers in a way such that the chassis remains stable. The special arrangement of the rocker wheels which have the middle and rear wheels freely always moving on a pivot lead to maximum wheel. 
+It is a special suspension system that keeps the robot stable while traversing and ensures that all wheels keep in contact with the ground. Each side has a rocker which is made with four pipes attached with 3-D printed connectors. Both rockers are connected through a differential which moves both rockers in a way such that the chassis remains stable. The special arrangement of the rocker wheels which have the middle and rear wheels freely always moving on a pivot leads to the maximum wheel. 
 
 ![Rover Ground](images/rover_ground.png)
 ![Rover Seeds Sower](images/rover_seeds.png)
@@ -39,4 +39,14 @@ ssh Username@ip_address
 ```
 
 The ROS package "agribot" has two control node, the node "sender" is evoked in the laptop and "reciever" is evoked in the raspi terminal. Now we can teleop using the sender node by following the message available on the screen. 
+![terminal](images/terminal.png)
 
+## Sender terminal:
+```
+ros2 run agribot sender
+```
+
+## Receiver terminal:
+```
+ros2 run agribot receiver
+```
